@@ -1,17 +1,36 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
+    <ion-title class="ion-text-left">
+      Contactos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-title class="ion-text-right" >
+
+    <ion-button color="primary" (click)="agregar()" size="small" expand="full">
+      Agregar
+      <ion-icon slot="icon-only" name="person-add-outline"></ion-icon>
+    </ion-button>
+  </ion-title>
+
+
+    <!-- List of Text Items -->
+    <ion-list>
+      <ion-item *ngFor="let item of list">
+        <ion-icon slot="start" name="person-circle-outline"></ion-icon>
+        <ion-label>{{item.nombre}}</ion-label>
+        
+        <ion-button>
+          <ion-icon name="pencil-outline"></ion-icon>
+        </ion-button>
+      </ion-item>
+      
+    </ion-list>
+
+
+    <!--Fin lista-->
+
 </ion-content>

@@ -1,17 +1,148 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 3
+      Perfil
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 3</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <form [formGroup]="ionicForm" (ngSubmit)="submitForm()" novalidate>
 
-  <app-explore-container name="Tab 3 page"></app-explore-container>
+    <ion-item lines="full">
+      <ion-label position="floating">Nombre</ion-label>
+      <ion-input formControlName="name" type="text"></ion-input>
+    </ion-item>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.name.errors?.required">
+      Nombre es requerido.
+    </span>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.name.errors?.minlength">
+      Nombre necesita al menos 2 caracteres.
+    </span>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Apellido</ion-label>
+      <ion-input formControlName="apellido" type="text"></ion-input>
+    </ion-item>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.apellido.errors?.required">
+      Apellido es requerido.
+    </span>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.apellido.errors?.minlength">
+      Apellido necesita al menos 2 caracteres.
+    </span>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Celular</ion-label>
+      <ion-input maxlength="10" formControlName="mobile" type="text" required></ion-input>
+    </ion-item>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.mobile.errors?.required">
+      Numero celular es requerido.
+    </span>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.mobile.errors?.pattern">
+      Solo se permiten valores numéricos.
+    </span>
+
+
+    <ion-item lines="full">
+      <ion-label position="floating">Color de ojos</ion-label>
+      <ion-input formControlName="eyes" type="text"></ion-input>
+    </ion-item>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.eyes.errors?.required">
+      Descripción de ojos es requerido.
+    </span>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.eyes.errors?.minlength">
+      Descripción de ojos necesita al menos 2 caracteres.
+    </span>
+  
+    <ion-item lines="full">
+      <ion-label position="floating">Estatura</ion-label>
+      <ion-input maxlength="10" formControlName="estatura" type="text" required></ion-input>
+    </ion-item>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.estatura.errors?.required">
+      Estatura es requerido.
+    </span>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.estatura.errors?.minlength">
+      Estatura necesita al menos 2 caracteres.
+    </span>
+
+    
+    <ion-item lines="full">
+      <ion-label position="floating">Edad</ion-label>
+      <ion-input maxlength="10" formControlName="edad" type="text" required></ion-input>
+    </ion-item>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.edad.errors?.required">
+      Edad es requerido.
+    </span>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.edad.errors?.pattern">
+      Solo se permiten valores numéricos.
+    </span>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Tez (color de piel)</ion-label>
+      <ion-input maxlength="10" formControlName="tez" type="text" required></ion-input>
+    </ion-item>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.tez.errors?.required">
+      Tez es requerido.
+    </span>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.tez.errors?.minlength">
+      Tez necesita al menos 2 caracteres.
+    </span>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Cabello</ion-label>
+      <ion-input maxlength="20" formControlName="cabello" type="text" required></ion-input>
+    </ion-item>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.cabello.errors?.required">
+      Descripción del cabello es requerido.
+    </span>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.cabello.errors?.minlength">
+      Descripción del cabello necesita al menos 2 caracteres.
+    </span>
+
+    
+    <ion-item lines="full">
+      <ion-label position="floating">Complexión</ion-label>
+      <ion-input maxlength="10" formControlName="complexion" type="text" required></ion-input>
+    </ion-item>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.complexion.errors?.required">
+      Descripción Complexión es requerido.
+    </span>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.complexion.errors?.minlength">
+      Descripción Complexión necesita al menos 2 caracteres.
+    </span>
+  
+    <ion-item lines="full">
+      <ion-label position="floating">Señas particulares</ion-label>
+      <ion-input maxlength="20" formControlName="particulares" type="text" required></ion-input>
+    </ion-item>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.particulares.errors?.required">
+      Señas particulares es requerido.
+    </span>
+    <span style="color: #E77B04;" *ngIf="isSubmitted && errorControl.particulares.errors?.minlength">
+      Señas particulares necesita al menos 2 caracteres.
+    </span>
+
+    <ion-radio-group lines="full">
+      <ion-list-header>
+        <ion-label>Género</ion-label>
+      </ion-list-header>
+
+      <ion-item>
+        <ion-label>Masculino</ion-label>
+        <ion-radio slot="start" value="masculino" checked></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Femenino</ion-label>
+        <ion-radio slot="start" value="femenino"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+
+
+    <ion-row>
+      <ion-col>
+        <ion-button type="submit" color="danger" expand="block">Guardar</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
 </ion-content>
