@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar>
+    <!-- Botón Cancelar como "X" roja -->
+    <ion-buttons slot="start">
+      <ion-button (click)="cancel()" color="danger">
+        <ion-icon name="close" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>{{ contacto ? 'Editar Contacto' : ' Agregar Contacto' }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <!-- Input para Nombre -->
+  <ion-item>
+    <ion-input
+      label="Nombre"
+      labelPlacement="stacked"
+      type="text"
+      placeholder="Ingrese su nombre"
+      [(ngModel)]="nombre"
+    ></ion-input>
+  </ion-item>
+
+  <!-- Input para Teléfono -->
+  <ion-item>
+    <ion-input
+      label="Teléfono"
+      labelPlacement="stacked"
+      type="text"
+      placeholder="Ingrese su teléfono"
+      [(ngModel)]="telefono"
+    ></ion-input>
+  </ion-item>
+
+  <!-- Botón Confirmar -->
+  <ion-button expand="full" (click)="confirm()">
+    {{ contacto ? 'Actualizar' : 'Guardar' }}
+  </ion-button>
+</ion-content>

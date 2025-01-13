@@ -1,36 +1,28 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title class="ion-text-left">
-      Contactos
-    </ion-title>
+    <ion-title>Contactos</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content class="ion-padding">
+  <!-- Botón para abrir el modal -->
+  <ion-button (click)="openModal()" expand="block">
+    Agregar contactos
+    <ion-icon slot="icon-only" name="person-add-outline"></ion-icon>
+  </ion-button>
 
-  <ion-title class="ion-text-right" >
-
-    <ion-button color="primary" (click)="agregar()" size="small" expand="full">
-      Agregar
-      <ion-icon slot="icon-only" name="person-add-outline"></ion-icon>
-    </ion-button>
-  </ion-title>
-
-
-    <!-- List of Text Items -->
-    <ion-list>
-      <ion-item *ngFor="let item of list">
-        <ion-icon slot="start" name="person-circle-outline"></ion-icon>
-        <ion-label>{{item.nombre}}</ion-label>
-        
-        <ion-button>
-          <ion-icon name="pencil-outline"></ion-icon>
-        </ion-button>
-      </ion-item>
-      
-    </ion-list>
-
-
-    <!--Fin lista-->
-
+  <!-- Lista de contactos -->
+  <ion-list>
+    <ion-item *ngFor="let item of list">
+      <ion-icon slot="start" name="person-circle-outline"></ion-icon>
+      <ion-label>
+        <h2>{{ item.nombre }}</h2>
+        <p>{{ item.telefono }}</p>
+      </ion-label>
+      <!-- Botón para editar -->
+      <ion-button (click)="editContact(item)">
+        <ion-icon name="pencil-outline"></ion-icon>
+      </ion-button>
+    </ion-item>
+  </ion-list>
 </ion-content>

@@ -1,0 +1,51 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Registro / Iniciar Sesión
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <form *ngIf="isRegistering" [formGroup]="registroForm" (ngSubmit)="onRegister()" novalidate>
+    <ion-item lines="full">
+      <ion-label position="floating">Nombre</ion-label>
+      <ion-input formControlName="name" type="text"></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Correo Electrónico</ion-label>
+      <ion-input formControlName="email" type="email"></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Contraseña</ion-label>
+      <ion-input formControlName="password" type="password"></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Confirmar Contraseña</ion-label>
+      <ion-input formControlName="confirmPassword" type="password"></ion-input>
+    </ion-item>
+
+    <ion-button expand="full" type="submit" color="primary">Registrar</ion-button>
+  </form>
+
+  <form *ngIf="!isRegistering" [formGroup]="loginForm" (ngSubmit)="onLogin()" novalidate>
+    <ion-item lines="full">
+      <ion-label position="floating">Correo Electrónico</ion-label>
+      <ion-input formControlName="email" type="email"></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label position="floating">Contraseña</ion-label>
+      <ion-input formControlName="password" type="password"></ion-input>
+    </ion-item>
+
+    <ion-button expand="full" type="submit" color="primary">Iniciar Sesión</ion-button>
+  </form>
+
+  <ion-button expand="full" color="light" (click)="toggleForm()">
+    {{ isRegistering ? 'Ya tienes cuenta? Iniciar sesión' : 'No tienes cuenta? Regístrate' }}
+  </ion-button>
+</ion-content>

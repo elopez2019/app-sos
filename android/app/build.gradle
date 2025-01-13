@@ -1,51 +1,59 @@
+// Aplicar el plugin de Android y el plugin de Google Services
 apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
 
+// Configuración de Android
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
-    defaultConfig {
-        applicationId "io.ionic.starter"
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        aaptOptions {
-             // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
-             // Default: https://android.googlesource.com/platform/frameworks/base/+/282e181b58cf72b6ca770dc7ca5f91f135444502/tools/aapt/AaptAssets.cpp#61
-            ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
-        }
+  compileSdkVersion rootProject.ext.compileSdkVersion
+  defaultConfig {
+    applicationId "io.ionic.starter"
+    minSdkVersion rootProject.ext.minSdkVersion
+    targetSdkVersion rootProject.ext.targetSdkVersion
+    versionCode 1
+    versionName "1.0"
+    testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    aaptOptions {
+      // Archivos y carpetas para omitir del directorio de assets empaquetados
+      ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
     }
-    buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
+  }
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
     }
+  }
 }
 
+// Repositorios
 repositories {
-    flatDir{
-        dirs '../capacitor-cordova-android-plugins/src/main/libs', 'libs'
-    }
+  flatDir{
+    dirs '../capacitor-cordova-android-plugins/src/main/libs', 'libs'
+  }
 }
 
+// Dependencias
 dependencies {
-    implementation fileTree(include: ['*.jar'], dir: 'libs')
-    implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
-    implementation project(':capacitor-android')
-    testImplementation "junit:junit:$junitVersion"
-    androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
-    androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
-    implementation project(':capacitor-cordova-android-plugins')
+  implementation platform('com.google.firebase:firebase-bom:33.7.0')
+  implementation 'com.google.firebase:firebase-analytics'
+  implementation fileTree(include: ['*.jar'], dir: 'libs')
+  implementation "androidx.appcompat:appcompat:$androidxAppCompatVersion"
+  implementation project(':capacitor-android')
+  testImplementation "junit:junit:$junitVersion"
+  androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
+  androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
+  implementation project(':capacitor-cordova-android-plugins')
 }
 
+// Aplicar configuración adicional
 apply from: 'capacitor.build.gradle'
 
+// Manejo de la configuración de Google Services
 try {
-    def servicesJSON = file('google-services.json')
-    if (servicesJSON.text) {
-        apply plugin: 'com.google.gms.google-services'
-    }
+  def servicesJSON = file('google-services.json')
+  if (servicesJSON.text) {
+    apply plugin: 'com.google.gms.google-services'
+  }
 } catch(Exception e) {
-    logger.warn("google-services.json not found, google-services plugin not applied. Push Notifications won't work")
+  logger.warn("google-services.json no encontrado, plugin de Google Services no aplicado. Las notificaciones push no funcionarán.")
 }
