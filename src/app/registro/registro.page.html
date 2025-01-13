@@ -48,4 +48,7 @@
   <ion-button expand="full" color="light" (click)="toggleForm()">
     {{ isRegistering ? 'Ya tienes cuenta? Iniciar sesión' : 'No tienes cuenta? Regístrate' }}
   </ion-button>
+
+  <ion-spinner *ngIf="loading"></ion-spinner>
+
 </ion-content>

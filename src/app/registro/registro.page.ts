@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword } from 'firebase/auth';
 import { Router } from '@angular/router';
+import { getFirestore, doc, setDoc } from 'firebase/firestore';
+
 
 @Component({
   selector: 'app-registro',
@@ -54,18 +56,28 @@ export class RegistroPage implements OnInit {
     }
 
     const auth = getAuth();
+    const db = getFirestore(); // Instancia de Firestore
+
     createUserWithEmailAndPassword(auth, email, password)
-      .then((userCredential) => {
+      .then(async (userCredential) => {
         const user = userCredential.user;
-        console.log('Usuario registrado:', user);
-        // Redirigir a otra página después del registro
-        this.router.navigate(['/tabs/perfil']);
+
+        // Guardar datos adicionales en Firestore, incluyendo el nombre
+        await setDoc(doc(db, 'users', user.uid), {
+          name, // Guarda el nombre del usuario
+          email,
+          userId: user.uid,
+        });
+
+        console.log('Usuario registrado y datos guardados en Firestore:', user);
+        this.router.navigate(['/tabs/tab1']); // Redirigir al home
       })
       .catch((error) => {
         console.error('Error al registrar usuario:', error.message);
         alert('Error al registrar usuario: ' + error.message);
       });
   }
+
 
   // Iniciar sesión
   onLogin() {
@@ -79,13 +91,13 @@ export class RegistroPage implements OnInit {
     signInWithEmailAndPassword(auth, email, password)
       .then((userCredential) => {
         const user = userCredential.user;
-        console.log('Usuario iniciado sesión:', user);
-        // Redirigir a otra página después del inicio de sesión
-        this.router.navigate(['/tabs/perfil']);
+        console.log('Usuario inició sesión:', user);
+        this.router.navigate(['/tabs/tab1']); // Redirigir al home
       })
       .catch((error) => {
         console.error('Error al iniciar sesión:', error.message);
         alert('Error al iniciar sesión: ' + error.message);
       });
   }
+
 }

@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { Geolocation } from '@capacitor/geolocation';
 import { SocialSharing } from '@awesome-cordova-plugins/social-sharing/ngx';
 import { FirebaseService } from '../services/firebase.service';
+import { getAuth, signOut } from 'firebase/auth';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-tab1',
@@ -11,7 +13,8 @@ import { FirebaseService } from '../services/firebase.service';
 export class Tab1Page {
   constructor(
     private socialSharing: SocialSharing,
-    private firebaseService: FirebaseService
+    private firebaseService: FirebaseService,
+    private router: Router
   ) {}
 
   handleEmergency() {
@@ -34,12 +37,25 @@ export class Tab1Page {
 
       console.log('Ubicación obtenida:', locationUrl);
 
-      // Obtener contactos desde Firebase
+      // Obtener ID del usuario autenticado
+      const auth = getAuth();
+      const user = auth.currentUser;
+
+      if (!user) {
+        console.error('No hay un usuario autenticado');
+        return;
+      }
+
+      console.log('Usuario autenticado:', user.uid);
+
+      // Obtener contactos desde Firebase filtrados por el usuario actual
       const contactos = await this.firebaseService.obtenerContactos();
-      console.log('Contactos obtenidos:', contactos);
+      const misContactos = contactos.filter((contact: any) => contact.userId === user.uid);
+
+      console.log('Contactos del usuario:', misContactos);
 
       // Enviar mensaje a cada contacto registrado
-      for (const contact of contactos) {
+      for (const contact of misContactos) {
         try {
           await this.socialSharing.shareViaWhatsAppToReceiver(
             contact.telefono,
@@ -53,5 +69,18 @@ export class Tab1Page {
     } catch (error) {
       console.error('Error en el proceso de emergencia:', error);
     }
+  }
+
+  // Método para cerrar sesión
+  logout() {
+    const auth = getAuth();
+    signOut(auth)
+      .then(() => {
+        console.log('Sesión cerrada con éxito');
+        this.router.navigate(['/registro']); // Redirige a la página de inicio de sesión
+      })
+      .catch((error) => {
+        console.error('Error al cerrar sesión:', error);
+      });
   }
 }
