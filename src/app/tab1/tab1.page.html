@@ -1,8 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Emergencia
-    </ion-title>
+    <ion-title>Emergencia</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -13,7 +11,6 @@
     </ion-toolbar>
   </ion-header>
 
-  <!-- Contenedor para centrar el botón -->
   <div
     style="
       position: relative;
@@ -24,7 +21,7 @@
       align-items: center;
     ">
     <ion-fab-button
-      (press)="onEmergencyPress()"
+      (click)="handleEmergency()"
       color="danger"
       style="
         width: 200px;

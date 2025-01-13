@@ -37,22 +37,22 @@ export class FirebaseService {
   }
 
   // Método para obtener todos los contactos de Firestore
-  async obtenerContactos() {
-    try {
-      const contactosCollection = collection(firestore, 'contactos');
-      const contactosSnapshot = await getDocs(contactosCollection);
+  async obtenerContactos(): Promise<{ id: string; nombre: string; telefono: string }[]> {
+      try {
+        const contactosCollection = collection(firestore, 'contactos');
+        const contactosSnapshot = await getDocs(contactosCollection);
 
-      // Mapear los documentos a un formato de lista con su ID
-      const contactosList = contactosSnapshot.docs.map((docSnapshot) => ({
-        id: docSnapshot.id, // Incluir el ID del documento
-        ...docSnapshot.data(),
-      }));
+        // Mapear los documentos a un formato de lista con su ID
+        const contactosList = contactosSnapshot.docs.map((docSnapshot) => ({
+          id: docSnapshot.id, // Incluir el ID del documento
+          ...(docSnapshot.data() as { nombre: string; telefono: string }),
+        }));
 
-      console.log('Contactos obtenidos:', contactosList);
-      return contactosList;
-    } catch (error) {
-      console.error('Error al obtener contactos: ', error);
-      throw error;
+        console.log('Contactos obtenidos:', contactosList);
+        return contactosList;
+      } catch (error) {
+        console.error('Error al obtener contactos: ', error);
+        throw error;
+      }
     }
-  }
 }
