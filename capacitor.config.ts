@@ -4,7 +4,6 @@ const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
   appName: 'appSOS',
   webDir: 'www',
-  bundledWebRuntime: false,
 
 };
 
