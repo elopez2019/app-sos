@@ -1,0 +1,30 @@
+plugins {
+  id 'com.android.application'
+}
+
+android {
+  compileSdkVersion 35 // O el SDK que estés utilizando, por ejemplo 33
+  defaultConfig {
+    namespace "io.ionic.starter" // Usa un nombre de paquete válido
+    minSdkVersion 22
+    //noinspection ExpiredTargetSdkVersion
+    targetSdkVersion 35
+    versionCode 1
+    versionName "1.0"
+  }
+  // Otros bloques y configuraciones
+}
+
+
+dependencies {
+  implementation 'androidx.appcompat:appcompat:1.6.1'
+  implementation 'androidx.lifecycle:lifecycle-viewmodel:2.5.1'
+  implementation 'androidx.core:core-ktx:1.9.0'
+  implementation 'com.google.android.material:material:1.9.0'
+  implementation project(':capacitor-android')
+  testImplementation 'junit:junit:4.13.2'
+
+
+  // otras dependencias necesarias
+}
+

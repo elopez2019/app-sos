@@ -1,0 +1,324 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:27:5-35:16
+	android:grantUriPermissions
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:31:7-41
+	android:authorities
+		INJECTED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:29:7-58
+	android:exported
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:30:7-31
+	android:name
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:28:7-56
+manifest
+ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from [com.google.android.material:material:1.9.0] /Users/emilie/.gradle/caches/8.10.2/transforms/22b04d13802919cd658c12722f3eb910/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
+MERGED from [:capacitor-android] /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/build/capacitor-android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/03fed1d8dffab764a2ca77005ebc462a/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/emilie/.gradle/caches/8.10.2/transforms/202c730a347e31b9ff8b597082fc1f80/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/6ee785908de4535fa6b5dd1fa4818106/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/d534bee58206829650c896335e785e9b/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/emilie/.gradle/caches/8.10.2/transforms/0abc427dd0b7f411684596c7d24a2713/transformed/fragment-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.8.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c5005350641ea2f32cab31ba4425b22d/transformed/jetified-activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/d9d8db21571726a11f57aa700f89bff7/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c6d58dc961f7ee6eb0a607d620760267/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/070e9e528890bc405784387ba481c2a6/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/13fb7371ad8d732d9ae89f2ad913eea4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/7d5bb8043cdb9084a3177cb091bb78ff/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/emilie/.gradle/caches/8.10.2/transforms/33a7c95a2522eb81a8c047716cdfdde9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/emilie/.gradle/caches/8.10.2/transforms/b63c51a19266be560911c3738658bb67/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/73a49da5791c703a91085b3a064db999/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.9.0] /Users/emilie/.gradle/caches/8.10.2/transforms/28837605dba0c5235abf5d0f8a71583a/transformed/webkit-1.9.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/emilie/.gradle/caches/8.10.2/transforms/6d76c07d0560823672aeb8d3af88c0d1/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/b8b04c4fd08f36e02731cad8a44d7247/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/emilie/.gradle/caches/8.10.2/transforms/48057d3241eb328f02a625a59a5124d9/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/b3a220964d402b5de67f66714a402243/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/emilie/.gradle/caches/8.10.2/transforms/1252da0092c2a1547948808bf4ccbc49/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/1a5b6ccf6ec0affc84308ff29c3b0b68/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/537fd53ea1b978b157ba4125cec70c9a/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/9c500692a01b3ac2f82e42405781b44f/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/52e6c6f0bc18e14406bda3a8825527a6/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/8a743a2b5b38bef7caef8a0769135a3f/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/4b0d2d440a40c353ccedb76098d4ef08/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c1ffb49127eebadefa3a97fcb963f316/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/a325d7ae605ef2463efd6741443ba208/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/aef2290a0afbb3d62b1bfee46ce36c92/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/fdfddbbe5f2584fbf19c62305e2b0fa6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/6ba8dab7b161ac8967238d1b841951cc/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/2b351090e156e52ce662dc64c115e5e4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/24411bbc510600768444767e15eb35bd/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/be9451725817ac149b778d59b6acca9a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/4b1ac138feaf5b402af6d071c4d5741a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/cd4836d68b0c9bc7b730497fd26d9e78/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/d7098b02dee9166132bc3dcbcaafe9b5/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/07c49467ae182b933f44557e2bdc46f7/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/8c003f9125a6a49a623b6db8ae46a63b/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/0cc66b2e98d3b9ec7c70c9d8be7aeb10/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.apache.cordova:framework:10.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/62efba3914a9e9d9cee478ce9f62532e/transformed/jetified-framework-10.1.1/AndroidManifest.xml:20:1-27:12
+	package
+		INJECTED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:5:3-36:17
+INJECTED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:5:3-36:17
+MERGED from [com.google.android.material:material:1.9.0] /Users/emilie/.gradle/caches/8.10.2/transforms/22b04d13802919cd658c12722f3eb910/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] /Users/emilie/.gradle/caches/8.10.2/transforms/22b04d13802919cd658c12722f3eb910/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/emilie/.gradle/caches/8.10.2/transforms/202c730a347e31b9ff8b597082fc1f80/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/emilie/.gradle/caches/8.10.2/transforms/202c730a347e31b9ff8b597082fc1f80/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c6d58dc961f7ee6eb0a607d620760267/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c6d58dc961f7ee6eb0a607d620760267/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/9c500692a01b3ac2f82e42405781b44f/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/9c500692a01b3ac2f82e42405781b44f/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c1ffb49127eebadefa3a97fcb963f316/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c1ffb49127eebadefa3a97fcb963f316/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/2b351090e156e52ce662dc64c115e5e4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/2b351090e156e52ce662dc64c115e5e4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/be9451725817ac149b778d59b6acca9a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/be9451725817ac149b778d59b6acca9a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c1ffb49127eebadefa3a97fcb963f316/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:10:5-31
+	android:label
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:8:5-37
+	android:roundIcon
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:9:5-50
+	android:icon
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:7:5-39
+	android:allowBackup
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:6:5-31
+	android:theme
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:11:5-36
+activity#io.ionic.starter.MainActivity
+ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:13:5-25:16
+	android:label
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:16:7-50
+	android:launchMode
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:18:7-38
+	android:exported
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:13:15-38
+	android:configChanges
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:14:7-123
+	android:theme
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:17:7-56
+	android:name
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:15:7-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:20:7-23:23
+action#android.intent.action.MAIN
+ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:21:9-61
+	android:name
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:21:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:22:9-69
+	android:name
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:22:19-66
+uses-permission#android.permission.INTERNET
+ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:40:3-65
+	android:name
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:40:20-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:32:7-34:56
+	android:resource
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:34:9-43
+	android:name
+		ADDED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml:33:9-59
+uses-sdk
+INJECTED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.9.0] /Users/emilie/.gradle/caches/8.10.2/transforms/22b04d13802919cd658c12722f3eb910/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] /Users/emilie/.gradle/caches/8.10.2/transforms/22b04d13802919cd658c12722f3eb910/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
+MERGED from [:capacitor-android] /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/build/capacitor-android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [:capacitor-android] /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/build/capacitor-android/intermediates/merged_manifest/debug/processDebugManifest/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/03fed1d8dffab764a2ca77005ebc462a/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/03fed1d8dffab764a2ca77005ebc462a/transformed/jetified-appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/emilie/.gradle/caches/8.10.2/transforms/202c730a347e31b9ff8b597082fc1f80/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/emilie/.gradle/caches/8.10.2/transforms/202c730a347e31b9ff8b597082fc1f80/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/6ee785908de4535fa6b5dd1fa4818106/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/6ee785908de4535fa6b5dd1fa4818106/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/d534bee58206829650c896335e785e9b/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/d534bee58206829650c896335e785e9b/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/emilie/.gradle/caches/8.10.2/transforms/0abc427dd0b7f411684596c7d24a2713/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /Users/emilie/.gradle/caches/8.10.2/transforms/0abc427dd0b7f411684596c7d24a2713/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c5005350641ea2f32cab31ba4425b22d/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c5005350641ea2f32cab31ba4425b22d/transformed/jetified-activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/d9d8db21571726a11f57aa700f89bff7/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/d9d8db21571726a11f57aa700f89bff7/transformed/jetified-emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c6d58dc961f7ee6eb0a607d620760267/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c6d58dc961f7ee6eb0a607d620760267/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/070e9e528890bc405784387ba481c2a6/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/070e9e528890bc405784387ba481c2a6/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/13fb7371ad8d732d9ae89f2ad913eea4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/13fb7371ad8d732d9ae89f2ad913eea4/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/7d5bb8043cdb9084a3177cb091bb78ff/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/7d5bb8043cdb9084a3177cb091bb78ff/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/emilie/.gradle/caches/8.10.2/transforms/33a7c95a2522eb81a8c047716cdfdde9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/emilie/.gradle/caches/8.10.2/transforms/33a7c95a2522eb81a8c047716cdfdde9/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/emilie/.gradle/caches/8.10.2/transforms/b63c51a19266be560911c3738658bb67/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/emilie/.gradle/caches/8.10.2/transforms/b63c51a19266be560911c3738658bb67/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/73a49da5791c703a91085b3a064db999/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/73a49da5791c703a91085b3a064db999/transformed/coordinatorlayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.9.0] /Users/emilie/.gradle/caches/8.10.2/transforms/28837605dba0c5235abf5d0f8a71583a/transformed/webkit-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.9.0] /Users/emilie/.gradle/caches/8.10.2/transforms/28837605dba0c5235abf5d0f8a71583a/transformed/webkit-1.9.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/emilie/.gradle/caches/8.10.2/transforms/6d76c07d0560823672aeb8d3af88c0d1/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/emilie/.gradle/caches/8.10.2/transforms/6d76c07d0560823672aeb8d3af88c0d1/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/b8b04c4fd08f36e02731cad8a44d7247/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/b8b04c4fd08f36e02731cad8a44d7247/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/emilie/.gradle/caches/8.10.2/transforms/48057d3241eb328f02a625a59a5124d9/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/emilie/.gradle/caches/8.10.2/transforms/48057d3241eb328f02a625a59a5124d9/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/b3a220964d402b5de67f66714a402243/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/b3a220964d402b5de67f66714a402243/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/emilie/.gradle/caches/8.10.2/transforms/1252da0092c2a1547948808bf4ccbc49/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/emilie/.gradle/caches/8.10.2/transforms/1252da0092c2a1547948808bf4ccbc49/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/1a5b6ccf6ec0affc84308ff29c3b0b68/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/1a5b6ccf6ec0affc84308ff29c3b0b68/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/537fd53ea1b978b157ba4125cec70c9a/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/537fd53ea1b978b157ba4125cec70c9a/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/9c500692a01b3ac2f82e42405781b44f/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/9c500692a01b3ac2f82e42405781b44f/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/52e6c6f0bc18e14406bda3a8825527a6/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/52e6c6f0bc18e14406bda3a8825527a6/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/8a743a2b5b38bef7caef8a0769135a3f/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/8a743a2b5b38bef7caef8a0769135a3f/transformed/jetified-lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/4b0d2d440a40c353ccedb76098d4ef08/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/4b0d2d440a40c353ccedb76098d4ef08/transformed/jetified-core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c1ffb49127eebadefa3a97fcb963f316/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c1ffb49127eebadefa3a97fcb963f316/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/a325d7ae605ef2463efd6741443ba208/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/a325d7ae605ef2463efd6741443ba208/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/aef2290a0afbb3d62b1bfee46ce36c92/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/aef2290a0afbb3d62b1bfee46ce36c92/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/fdfddbbe5f2584fbf19c62305e2b0fa6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/fdfddbbe5f2584fbf19c62305e2b0fa6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/6ba8dab7b161ac8967238d1b841951cc/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/6ba8dab7b161ac8967238d1b841951cc/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/2b351090e156e52ce662dc64c115e5e4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/2b351090e156e52ce662dc64c115e5e4/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/24411bbc510600768444767e15eb35bd/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/24411bbc510600768444767e15eb35bd/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/be9451725817ac149b778d59b6acca9a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/be9451725817ac149b778d59b6acca9a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/4b1ac138feaf5b402af6d071c4d5741a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/4b1ac138feaf5b402af6d071c4d5741a/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/cd4836d68b0c9bc7b730497fd26d9e78/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/cd4836d68b0c9bc7b730497fd26d9e78/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/d7098b02dee9166132bc3dcbcaafe9b5/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/d7098b02dee9166132bc3dcbcaafe9b5/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/07c49467ae182b933f44557e2bdc46f7/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/emilie/.gradle/caches/8.10.2/transforms/07c49467ae182b933f44557e2bdc46f7/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/8c003f9125a6a49a623b6db8ae46a63b/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/8c003f9125a6a49a623b6db8ae46a63b/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/0cc66b2e98d3b9ec7c70c9d8be7aeb10/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/0cc66b2e98d3b9ec7c70c9d8be7aeb10/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [org.apache.cordova:framework:10.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/62efba3914a9e9d9cee478ce9f62532e/transformed/jetified-framework-10.1.1/AndroidManifest.xml:25:5-44
+MERGED from [org.apache.cordova:framework:10.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/62efba3914a9e9d9cee478ce9f62532e/transformed/jetified-framework-10.1.1/AndroidManifest.xml:25:5-44
+	android:targetSdkVersion
+		INJECTED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/emilie/Desktop/Tesis/ProyectoTesis/app-sos/android/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c6d58dc961f7ee6eb0a607d620760267/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/9c500692a01b3ac2f82e42405781b44f/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/9c500692a01b3ac2f82e42405781b44f/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/be9451725817ac149b778d59b6acca9a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/emilie/.gradle/caches/8.10.2/transforms/be9451725817ac149b778d59b6acca9a/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c6d58dc961f7ee6eb0a607d620760267/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c6d58dc961f7ee6eb0a607d620760267/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c6d58dc961f7ee6eb0a607d620760267/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c6d58dc961f7ee6eb0a607d620760267/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c6d58dc961f7ee6eb0a607d620760267/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c6d58dc961f7ee6eb0a607d620760267/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c6d58dc961f7ee6eb0a607d620760267/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/9c500692a01b3ac2f82e42405781b44f/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/9c500692a01b3ac2f82e42405781b44f/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /Users/emilie/.gradle/caches/8.10.2/transforms/9c500692a01b3ac2f82e42405781b44f/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c1ffb49127eebadefa3a97fcb963f316/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c1ffb49127eebadefa3a97fcb963f316/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c1ffb49127eebadefa3a97fcb963f316/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#io.ionic.starter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c1ffb49127eebadefa3a97fcb963f316/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c1ffb49127eebadefa3a97fcb963f316/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c1ffb49127eebadefa3a97fcb963f316/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c1ffb49127eebadefa3a97fcb963f316/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c1ffb49127eebadefa3a97fcb963f316/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#io.ionic.starter.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c1ffb49127eebadefa3a97fcb963f316/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /Users/emilie/.gradle/caches/8.10.2/transforms/c1ffb49127eebadefa3a97fcb963f316/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/emilie/.gradle/caches/8.10.2/transforms/92f636e6d1e561ed109bab89fc17ea2b/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
